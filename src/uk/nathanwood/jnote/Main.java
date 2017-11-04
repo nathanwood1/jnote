@@ -1,6 +1,6 @@
 package uk.nathanwood.jnote;
 
-import uk.nathanwood.jnote.window.Welcome;
+import uk.nathanwood.jnote.window.WelcomeWindow;
 
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
@@ -49,7 +49,7 @@ public class Main {
             if (save != null) {
                 System.err.println("File loading from console not supported yet.");
             }
-            Welcome welcome = new Welcome();
+            WelcomeWindow welcomeWindow = new WelcomeWindow();
         }
     }
 
